@@ -1,0 +1,74 @@
+html {
+  font-size: 18px;
+  font-family: sans-serif;
+  margin: 0;
+}
+
+header {
+  width: 100%;
+}
+.flex-container {
+  display: flex;
+  height: 64px;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  padding-left: 24px;
+  padding-right: 24px;
+  background-color: white;
+  justify-content: space-between;
+}
+
+body {
+  width: 100%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.colmar {
+  font-weight: bold;
+}
+
+.academy {
+  color: gray;
+}
+
+.mobile-icons {
+  display: none;
+}
+
+.desktop-nav {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.sign-in {
+  margin-right: 24px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blank {
+  height: 64px;
+  width: 16px;
+  background-color: #94f0fd;
+}
+
+.banner {
+  display: flex;
+  max-width: 100%;
+  padding-top:64px;
+  background-color: #d0cdcd;
+}
+
+.banner img {
+  margin: 32px 24px;
+  width: 60%;
+}
