@@ -4,6 +4,9 @@ html {
   margin: 0;
 }
 
+div {
+  border: 1px solid black;
+}
 header {
   width: 100%;
 }
@@ -63,12 +66,177 @@ nav a {
 
 .banner {
   display: flex;
-  max-width: 100%;
+  width: 100%;
   padding-top:64px;
   background-color: #d0cdcd;
 }
 
+.banner-image {
+  width:60%;
+  padding: 32px 24px;
+}
 .banner img {
-  margin: 32px 24px;
+  max-width: 100%;
+  }
+
+.banner-text {
+  line-height: 1.3;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.banner-text br {
+  line-height: 1.5;
+}
+
+h1 {
+  font-size: 2.3rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+
+.banner-text h1 {
+  width: 70%;
+}
+
+.banner-text p {
+  width: 70%;
+  font-size: 1.4rem;
+}
+
+.banner-text span {
+  width: 70%;
+  text-align: center;
+  background-color: black;
+  padding: 8px;
+}
+
+.banner-text a {
+  color: white;
+  text-decoration: none;
+}
+
+
+.school-info {
+  display: flex;
+  width: 100%;
+}
+
+.info-left {
   width: 60%;
+  padding: 32px 24px;
+}
+
+.info-left img {
+  max-width: 100%;
+}
+
+.info-left h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.author {
+  font-size: 0.8rem;
+}
+
+.mobile-image {
+  display: none;
+}
+
+.info-right3 {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.orientation-date, .our-campus, .guest-lecture {
+  display: flex;
+}
+
+.info-img{
+  width: 35%;
+  padding: 16px;
+}
+
+.info-img img {
+  max-width: 100%;
+}
+.info-text {
+  display: flex;
+  width: 65%;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.start-learning {
+  width: 100%;
+  text-align: center;
+  padding: 32px 0px;
+
+}
+.subjects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 88.5%;
+  padding: 32px 72px;
+  justify-content: center;
+}
+
+.subject {
+  display: block;
+  margin: 16px;
+  width: 25%;
+}
+.subject img {
+  width: 100%;
+  height: auto;
+}
+.subject h3 {
+  padding-left: 16px;
+  padding-top: 16px;
+}
+.courses {
+  padding: 8px 16px;
+}
+.course-list {
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+.thesis {
+  width: 100%;
+}
+
+.thesis h1 {
+  text-align: center;
+}
+
+.thesis-main {
+  display flex;
+}
+
+.video {
+  width: 60%;
+}
+
+.video video {
+  max-width: 100%;
+  height: auto;
+  
+}
+
+footer {
+  width: 100%;
 }
