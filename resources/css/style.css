@@ -299,6 +299,8 @@ h3 {
 
 footer {
   width: 100%;
+  padding-top: 16px;
+  padding-left: 24px;
 }
 
 @media only screen and (max-width: 560px) {
@@ -401,12 +403,35 @@ footer {
   }
 
   .subject {
+    margin: 8px;
     padding-top: 16px;
     padding-left: 16px;
     padding-bottom: 24px;
+    width: 86%;
   }
 
   .subjects {
     flex-direction: column;
+    padding: 16px;
+    width: 100%;
+  }
+
+  .thesis-text {
+    display: none;
+  }
+
+  .vid-text {
+    display: none;
+  }
+
+  .video {
+
+    width: 100%;
+    padding-left: 0;
+  }
+
+  .video video {
+    max-width: none;
+    width: 100%;
   }
 }
