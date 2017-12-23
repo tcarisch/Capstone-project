@@ -91,6 +91,8 @@ nav a {
   line-height: 1.5;
 }
 
+
+
 h1 {
   font-size: 2.3rem;
   font-weight: bold;
@@ -221,22 +223,190 @@ h3 {
 
 .thesis h1 {
   text-align: center;
+  padding: 32px 0;
 }
 
 .thesis-main {
-  display flex;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .video {
+  display: flex;
+  flex-direction: column;
   width: 60%;
+  padding-left: 24px;
+}
+.video h3, .video p {
+  z-index: 3;
 }
 
 .video video {
+  max-width: 90%;
+  height: auto;
+}
+
+.vid-text {
+  padding-top: 24px;
+}
+
+.vid-text p {
+  padding-top: 8px;
+}
+
+.thesis-text {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+.top-img, .bottom-img {
+  width: 35%;
+}
+
+.top-img img {
   max-width: 100%;
   height: auto;
-  
 }
+
+.bottom-img img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Fisma, .Now {
+  width: 65%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bottom-right {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+}
+
+
 
 footer {
   width: 100%;
+}
+
+@media only screen and (max-width: 560px) {
+
+  .logo span {
+    display: none;
+  }
+
+  nav.desktop-nav {
+    display: none;
+  }
+
+  .desktop-nav span {
+    display: none;
+  }
+
+  .blank {
+    display: none;
+  }
+  .flex-container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .mobile-icons {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .logo {
+    width: 100%;
+  }
+
+  .icon1 {
+    display: none;
+  }
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-image {
+    width: 100%;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .banner-text {
+    width: 100%;
+    padding: 32px 16px;
+  }
+
+  .banner-text h1 {
+    width: 85%
+  }
+
+  .banner-text p {
+    width: 85%;
+  }
+
+  .banner-text span {
+    width: 85%;
+  }
+
+  .info-left {
+    display: none;
+  }
+
+  .desk-img {
+    display: none;
+  }
+
+  .mobile-image {
+    display: block;
+  }
+
+  .orientation-date, .our-campus, .guest-lecture {
+    flex-direction: column;
+  }
+
+  .info-right3, .info-text {
+    width: 100%;
+  }
+
+  .info-img {
+    width: 91%;
+    padding: 16px;
+  }
+
+  .info-text {
+    padding: 48px 32px;
+  }
+
+  .subject img {
+    display: none;
+  }
+
+  .subject p {
+    display: none;
+  }
+
+  .subject {
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-bottom: 24px;
+  }
+
+  .subjects {
+    flex-direction: column;
+  }
 }
