@@ -4,9 +4,6 @@ html {
   margin: 0;
 }
 
-div {
-  border: 1px solid black;
-}
 header {
   width: 100%;
 }
@@ -195,12 +192,14 @@ h3 {
   width: 88.5%;
   padding: 32px 72px;
   justify-content: center;
+  background-color: #e6dfdf;
 }
 
 .subject {
   display: block;
   margin: 16px;
   width: 25%;
+  background-color: white;
 }
 .subject img {
   width: 100%;
@@ -408,12 +407,14 @@ footer {
     padding-left: 16px;
     padding-bottom: 24px;
     width: 86%;
+    background-color: #e6dfdf;
   }
 
   .subjects {
     flex-direction: column;
     padding: 16px;
     width: 100%;
+    background-color: white;
   }
 
   .thesis-text {
